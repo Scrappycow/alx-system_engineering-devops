@@ -28,4 +28,14 @@
 
 13-symbolic_link - this script link a file /bin/ls to a symbolic link __ls__
 
-14-copy_html - this script copies html files from the current working directory to the parent directory, provided they dont exist in the parent directory or they are newer versions of existing files
+14-copy_html - this script copies html files from the current working directory to the parent directory, provided they dont exist in the parent directory or they are newer versions of existing file
+
+100-lets_move - This script moves all files beginning with an uppercase letter to the directory /tmp/u
+
+101-clean_emacs - this script deletes all files in the current working directory that end with the character ~
+
+102-tree - this script creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+
+103-commas - this script lists all the files and directories of the current directory, separated by commas
+
+school.mgc - this script creates a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0
