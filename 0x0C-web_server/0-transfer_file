@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #If number of arguments is >= 3
 if [ $# -ge 3 ]
 then
