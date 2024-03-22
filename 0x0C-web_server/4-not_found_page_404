@@ -2,7 +2,7 @@
 # Install nginx and  start
 apt-get -y install nginx
 
-mkdir /etc/nginx/html
+mkdir -p /etc/nginx/html
 touch /etc/nginx/html/index.html
 echo "Hello World!" > /etc/nginx/html/index.html
 touch /etc/nginx/html/404.html
